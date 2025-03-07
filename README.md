@@ -52,3 +52,4 @@ This portfolio is optimized for performance and reliability. It is deployed usin
 
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
 
+Thank you for exploring my portfolio. Enjoy browsing my projects and feel free to reach out with any questions!
