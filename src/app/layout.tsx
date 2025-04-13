@@ -16,6 +16,9 @@ export async function generateMetadata() {
   return {
     metadataBase: new URL(`https://${baseURL}`),
     title: home.title,
+      icons: {
+    icon: './favicon.ico',
+    },
     description: home.description,
     openGraph: {
       title: `${person.firstName}'s Portfolio`,
@@ -26,7 +29,7 @@ export async function generateMetadata() {
       type: "website",
       images: [
         {
-          url: '/favicon.ico', // Path should point to your public image
+          url: './favicon.ico', // Path should point to your public image
           width: 1200,
           height: 630,
           alt: `${person.firstName}'s Portfolio`,
@@ -168,3 +171,5 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     </Flex>
   );
 }
+
+
