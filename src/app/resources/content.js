@@ -50,8 +50,14 @@ const social = [
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  description: `I'm Rohit Full Stack Developer where I craft UI & scalable system.I write about design, technology, and the art of engineering.`,
   headline: <>Full Stack Developer</>,
+  images: [
+    {
+      src: "/images/avatar.jpg",
+      alt: "image",
+      orientation: "vertical",
+    }],
   subline: (
     <>
       I'm Rohit <InlineCode>Full Stack Developer</InlineCode> where I craft UI & scalable system.
