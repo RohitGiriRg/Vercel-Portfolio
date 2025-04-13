@@ -17,7 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-     I write about design, technology, and engineering—where creativity meets code. Passionate about building intuitive UIs and scalable systems, I share insights on crafting user-friendly, high-performance applications. Let’s connect! 🚀
+      I write about design, technology, and engineering—where creativity meets code. Passionate about building intuitive UIs and scalable systems, I share insights on crafting user-friendly, high-performance applications. Let’s connect! 🚀
     </>
   ),
 };
@@ -53,8 +53,8 @@ const home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Full Stack Developer</>,
   subline: (
-      <>
-             I'm Rohit <InlineCode>Full Stack Developer</InlineCode> where I craft UI & scalable system.
+    <>
+      I'm Rohit <InlineCode>Full Stack Developer</InlineCode> where I craft UI & scalable system.
       <br /> I write about design, technology, and the art of engineering.
     </>
   ),
@@ -80,8 +80,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-       Rohit Giri is a full-stack developer passionate about turning complex problems into elegant, scalable solutions. From intuitive UIs to robust backends, His work bridges technology and user experience.
-      </>
+        Passionate Full Stack Developer with expertise in web (MERN/MEAN, Node.js, Java) and mobile (Flutter, React Native, Android/iOS) development.Built impactful projects like E-commerce platforms and Back-end Services.Active open-source contributor, focused on collaboration and innovation.Currently enhancing web/mobile experiences with modern tech stacks. </>
     ),
   },
   work: {
@@ -103,7 +102,7 @@ const about = {
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          
+
         ],
       },
       {
@@ -119,9 +118,9 @@ const about = {
             growth and strategic initiatives.
           </>,
         ],
-       images: [
+        images: [
           // optional: leave the array empty if you don't want to display images
-          
+
         ],
       },
     ],

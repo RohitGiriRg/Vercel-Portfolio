@@ -19,11 +19,19 @@ export async function generateMetadata() {
     description: home.description,
     openGraph: {
       title: `${person.firstName}'s Portfolio`,
-      description: "Portfolio website showcasing my work.",
+      description: "I'm Rohit Full Stack Developer where I craft UI & scalable system.I write about design, technology, and the art of engineering.",
       url: baseURL,
       siteName: `${person.firstName}'s Portfolio`,
       locale: "en_US",
       type: "website",
+      images: [
+        {
+          url: '/favicon.ico', // Path should point to your public image
+          width: 1200,
+          height: 630,
+          alt: `${person.firstName}'s Portfolio`,
+        },
+      ],
     },
     robots: {
       index: true,
