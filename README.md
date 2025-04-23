@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/RohitGiriRg/Vercel-Portfolio.git
    ```
 
 2. **Navigate to the Project Directory:**
